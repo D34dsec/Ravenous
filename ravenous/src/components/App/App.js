@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <h1>Ravenous</h1>
       <SearchBar />
-      <BusinessList /> 
+      <BusinessList businesses={businesses} /> 
     </div>
   );
 }
